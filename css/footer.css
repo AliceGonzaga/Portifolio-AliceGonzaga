@@ -1,0 +1,28 @@
+footer {
+  background-color: var(--lightgrey3);
+}
+
+footer .footer_container {
+  text-align: center;
+  padding: 60px 0 10px 0;
+  max-width: 600px;
+}
+
+footer .footer_container .footer_contact p{
+  display: block;
+  font-weight: 500;
+
+}
+
+footer .footer_container ul li {
+  display: inline-block;
+}
+
+footer .footer_container ul a {
+  display: inline-block;
+  padding: 10px;
+}
+
+footer .footer_container .footer_copyright {
+  font-size: 10px;
+}

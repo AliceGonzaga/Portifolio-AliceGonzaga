@@ -1,0 +1,83 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    scroll-margin-top: 360px;
+  }
+  
+h1 {
+  font-size: 64px;
+  font-weight: 600;
+  color: var(--darkblue1);
+}
+
+.hightlight {
+background-image: linear-gradient(rgb(67, 255, 67), rgb(104, 255, 104));
+background-repeat: no-repeat;
+animation-name: spanAnimation;
+animation-duration: 1.5s;
+animation-delay: 1s;
+animation-timing-function: ease-in-out;
+animation-direction: foward;
+}
+
+@keyframes spanAnimation {
+  0% {
+    background-size: 10px 100%;
+    
+  }
+  100% {
+    background-size: 100% 100%;
+    
+
+  } }
+
+  header .header_left {
+    max-width: 1100px;
+    flex: 1;
+    margin-top: 200px;
+
+  }
+  header .header_left p {
+    max-width: 700px;
+    margin: 30px 0 0 0;
+    line-height: 35px;
+  }
+
+  header .header_left .button {
+    margin: 20px 0 0 0;
+  }
+
+  .button {
+    border: none;
+    outline: none;
+    padding: 18px 40px;
+    display: inline-block;
+    border-radius: 8px;
+    background-color: var(--darkblue1);
+    color: var(--white);
+    font-size: 20px;
+    transition: background-color 200ms;
+  }
+  
+  .button:hover {
+ background-color: var(--lightgrey2);
+  }
+  
+.header_right .background {
+    position: absolute;
+    top: 300px;
+    right: 190px;
+    z-index: -2;
+  }
+
+.border {
+  border: 1px dashed var(--darkgrey2);
+  border-radius: 8px;
+  width: 300px;
+  height: 500px;
+  position: absolute;
+    top: 160px;
+    right: 180px;
+    z-index: -1;
+}
